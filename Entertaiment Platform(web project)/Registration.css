@@ -1,0 +1,70 @@
+html{
+    font-size: 15px;
+}
+
+#contact-form{
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 60px;
+}
+.form-group{
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+
+}
+.form-group input {
+    border: none;
+    width: 100%;
+    display: block;
+    font-size: 20px;
+}
+.form-group input :focus{
+    outline: 0;
+}
+
+a:hover{
+    background-color: darkcyan;
+}
+    
+nav{
+    font-family: Montserrat;
+    background-color: #395167;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+#logo-box{
+    float: left;
+    padding-top: 1.2rem;
+}
+#logo-box .logo{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.0rem;
+}
+#nav-links{
+    float: right;
+}
+#nav-links .nav-item{
+    float: left;
+    margin: 0.5rem;
+}
+#nav-links .nav-link{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display:block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.4s;
+}
+#nav-links .nav-link:hover{
+    color:#43efef
+    
+}
+  
